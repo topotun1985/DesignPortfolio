@@ -447,14 +447,14 @@
 
 
     <div class="modal" style="display: none;">
-            <div class="modal__dialog">
+        <div class="modal__dialog">
     
                 <button class="modal__close" type="button">
                     <img src="/img/icon.svg" alt="close">
                 </button>
     
                 <div class="modal__content">
-                    <h3 class="modal__title">RESUME</h3>
+                    <h3 class="modal__title text-center">RESUME</h3>
 
                     <div class="text-center">
                         <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
@@ -602,7 +602,53 @@
                 </div>
                
             </div>
-        </div>
+    </div>
+
+
+        <div class="modal" style="display: none;">
+            <div class="modal__dialog modal__dialog--sm">
+        
+                <button class="modal__close" type="button">
+                    <img src="/img/icon.svg" alt="close">
+                </button>
+
+                    <div class="contact">
+                        <div class="contact__left">
+                            <h3 class="modal__title modal__title--contact">Let's Talk</h3>
+                            <div class="modal__subtitle">call me or send me a request</div>
+                            <ul class="contact__info">
+                                <li class="contact__info-item">
+                                    <img class="contact__info-icon" src="/img/smartphone-call.svg" alt="" height="16px">
+                                        (200) 100 3000
+                                </li>
+                                <li class="contact__info-item">
+                                    <img class="contact__info-icon" src="/img/mail.svg" alt="" height="16px">
+                                        123456@dropmail.su
+                                </li>
+                            </ul>
+
+                            <d class="form" action="/" method="POST">
+                                <div class="form__group">
+                                    <label class="label" for="input-email">Addres Email</label>
+                                    <input class="input" type="text" name="" id="input-email" placeholder="Address email">
+                                </div>
+
+                                <div class="form__group">
+                                    <label class="label" for="input-text">Request</label>
+                                    <textarea class="textarea" name="input-text" id="input-text" placeholder="Type your request..."></textarea>
+                                </div>
+
+                                <div class="text-right">
+                                    <button class="btn" type="submit">SEND</button>
+                                </div>
+                            </form>
+
+                        </div>
+                            
+                    </div>
+            </div>
+         </div>
+
 
 </body>
 </html>

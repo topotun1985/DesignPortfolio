@@ -19,6 +19,10 @@
     margin: auto;
     background-color: #fff;
     position: relative;
+
+    &--sm {
+        max-width: 900px;
+    }
 }
 
 .modal__close {
@@ -39,7 +43,7 @@
     }
 }
 
-.modal__content {
+.modal__contact {
     padding: 5rem 1rem;
 }
 
@@ -48,6 +52,16 @@
     color: @black;
     text-transform: uppercase;
     font-weight: 700;
-    text-align: center;
     margin-bottom: 3rem;
+}
+
+.modal__subtitle {
+    font-size: 1.06rem;
+    text-transform: uppercase;
+    color: @black;
+    font-weight: 400;
+}
+
+.modal__title--contact {
+    margin-bottom: 0;
 }
